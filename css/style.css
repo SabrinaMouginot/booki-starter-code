@@ -167,5 +167,20 @@ footer section{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-padding: 50px;
+/* padding: 50px; */
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot{
+    background-color: var(--main-bg-color);
+    /* padding: 30px; */
+    box-sizing: border-box;
+}
+
+footer{
+    padding-top: 50px;
 }
