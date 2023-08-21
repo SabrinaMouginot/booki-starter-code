@@ -161,13 +161,13 @@ body {
     /* ... */
 }
 
+
 /* Footer */
 
 footer section{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-/* padding: 50px; */
 }
 
 footer a {
@@ -183,4 +183,27 @@ footer a {
 
 footer{
     padding-top: 50px;
+}
+
+
+.fct {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fct section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.explication {
+    width: 100%;
+}
+
+.explication-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
