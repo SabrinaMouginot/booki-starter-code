@@ -160,3 +160,12 @@ body {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+/* Footer */
+
+footer section{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 50px;
+}
