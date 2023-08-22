@@ -71,6 +71,11 @@ body {
     width: 65%;
 }
 
+.hebergements-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .hebergements-title {
     display: flex;
@@ -80,28 +85,25 @@ body {
 
 .hebergements-cards .card {
     display: flex;
-    margin-top: 33px;
+    /* margin-top: 33px; */
     width: 250px;
     height: 207px;
     border-radius: 20px;
-    padding: 0px 0px 15px 0px;
+    padding: 0px 0px 15px 0px; 
 }
 
 .hebergements-cards img {
-    width: 33%;
+    width: 250px;
     height: 124px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
     border: 5px;
 }
 
 .hebergements-cards .card-content {
-    width: 67%;
+    width: 250px;
     height: 64px;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 0px 15px;
+
     box-sizing: border-box;
 }
 
