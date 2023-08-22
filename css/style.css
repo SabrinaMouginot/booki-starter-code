@@ -120,6 +120,7 @@ body {
 .activities {
     width: 100%;
     height: 559px;
+    padding: 30px 0px;
 }
 
 .activities-title{
@@ -134,14 +135,15 @@ body {
 }
 
 .activities .card{
-    width: 297.5px;
+    width: 297px;
     height: 439px;
     border-radius: 20px;
 }
 
 .activities-cards {
     width: 100%;
-    padding-left: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -149,6 +151,10 @@ body {
 }
 
 /***************************************************** Footer ***************************************************************************/
+footer{
+    padding: 20px 0px;
+}
+
 footer section{
     display: flex;
     flex-direction: row;
@@ -162,22 +168,18 @@ footer a {
 
 .foot{
     background-color: var(--main-bg-color);
-    /* padding: 30px; */
     box-sizing: border-box;
-
-
 }
 
 footer{
     width: 1340px;
     height: 163px;
-    /* padding-top: 50px; */
 }
 
 .apropos-txt, .hebergements-txt, .assistance-txt{
     width: 446px;
     height: 163px;
-    padding: 20px;
+    padding: 0px 20px;
 }
 
 /* Pages liées au footer (<a>) */
