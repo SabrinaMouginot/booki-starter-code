@@ -85,6 +85,9 @@ body {
 
 .hebergements-cards .card {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     /* margin-top: 33px; */
     width: 250px;
     height: 207px;
@@ -103,7 +106,6 @@ body {
     width: 250px;
     height: 64px;
     padding: 0px 15px;
-
     box-sizing: border-box;
 }
 
@@ -118,6 +120,15 @@ body {
 
 .hebergements-cards .card-rating {
     margin-bottom: 5px;
+}
+
+.hebergements-cards a{
+    text-decoration: none;
+    color: black;
+    /* width: 811px;
+    height: 21px;
+    size: 18px;
+    line-height: 21px; */
 }
 
 /**************************************************** Populaires ***************************************************************************/
