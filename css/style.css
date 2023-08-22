@@ -121,6 +121,27 @@ body {
     width: 100%;
 }
 
+.activities .card img{
+    width: 297px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.activities .card{
+    width: 297.5px;
+    height: 439px;
+    border-radius: 20px;
+}
+
+.activities-cards {
+    width: 100%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
 /******* Footer ************/
 footer section{
     display: flex;
