@@ -116,6 +116,11 @@ body {
     margin-bottom: 5px;
 }
 
+/****** Activités à Marseilles ***********/
+.activities {
+    width: 100%;
+}
+
 /******* Footer ************/
 footer section{
     display: flex;
