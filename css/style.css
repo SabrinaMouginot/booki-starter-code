@@ -75,12 +75,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 15px;
+    margin-top: 33px;
 }
 
 .hebergements-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 30px;
+    /* padding: 33px; */
+    margin-top: 10px;
+    margin-bottom: 4px;
 }
 
 .hebergements-cards .card {
@@ -185,7 +191,9 @@ body {
 
 .activities-title{
     height: 30px;
-    padding: 30px;
+    /* padding: 33px; */
+    margin-top: 10px;
+    margin-bottom: 4px;
 }
 
 .activities .card img{
@@ -198,6 +206,7 @@ body {
     width: 297px;
     height: 439px;
     border-radius: 20px;
+    margin-top: 33px;
 }
 
 .activities-cards {
