@@ -16,12 +16,19 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
 }
 
 .main-container {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
+    margin: auto;
     box-sizing: border-box;
 }
 
@@ -54,16 +61,16 @@ body {
 }
 
 /**************************************************************** Entête *******************************************************************/
-.entete{
+.entete {
     margin-bottom: 35px;
 }
 
-.entete img{
+.entete img {
     height: 79px;
     padding-bottom: 35px;
 }
 
-.recherche{
+.recherche {
     display: grid;
     grid-template-columns: 3% 10% 10%;
     align-items: start;
@@ -73,17 +80,17 @@ body {
     border: 1px;
 }
 
-.recherche button{
+.recherche button {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #0065FC;
-    color:#F2F2F2;
+    color: #F2F2F2;
     /* padding: 15px 16px; */
     /* height: 49px;
     font-size: 18px; */
 }
 
-.filtres{
+.filtres {
     display: grid;
     grid-template-columns: 5% 10% 10% 10% 10%;
     align-items: start;
@@ -93,13 +100,13 @@ body {
     font-size: 17px; */
 }
 
-.filtres button{
+.filtres button {
     /* height: 50px; */
     border-radius: 25px;
     /* font-size: 17px; */
 }
 
-.i{
+.i {
     width: 100%;
     height: 24px;
     padding-top: 35px;
@@ -150,7 +157,7 @@ body {
     width: 250px;
     height: 208px;
     border-radius: 20px;
-    padding: 0px 0px 15px 0px; 
+    padding: 0px 0px 15px 0px;
 }
 
 .hebergements-cards img {
@@ -180,7 +187,7 @@ body {
     margin-bottom: 5px;
 }
 
-.hebergements-cards a{
+.hebergements-cards a {
     text-decoration: none;
     color: black;
     /* width: 811px;
@@ -238,25 +245,21 @@ body {
 .activities {
     width: 100%;
     height: 559px;
-    padding: 30px 0px;
+    padding: 30px;
 }
 
-.activities-title{
-    height: 30px;
-    margin-top: 10px;
-    margin-bottom: 4px;
-    padding-top: 30px;
-    padding-left: 30px;
-}
-
-.activities .card img{
+.activities .card img {
     width: 100%;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
 }
 
-.activities .card{
-    width: 18.5em;
+.activities a {
+    flex: 1;
+}
+
+.activities .card {
+    width: 100%;
     height: 439px;
     border-radius: 20px;
     margin-top: 33px;
@@ -264,45 +267,36 @@ body {
 
 .activities-cards {
     width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 30px;
     box-sizing: border-box;
 }
 
 /***************************************************** Footer ***************************************************************************/
-footer{
-    padding: 20px 0px;
-}
-
-footer section{
+.foot {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-    
-footer a {
-    text-decoration: none;
-    color: black;
-}
-
-.foot{
+    width: 100%;
     background-color: var(--main-bg-color);
     box-sizing: border-box;
+    padding: 20px;
 }
 
-footer{
-    width: 100%;
-    height: 163px;
+
+.footer-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.apropos-txt, .hebergements-txt, .assistance-txt{
-    width: 33%;
-    height: 163px;
-    padding: 0px 20px;
+.footer-block h2 {
+    margin: 0;
+    font-size: 18px;
 }
+
 
 /* Pages liées au footer (<a>) */
 .fct {
@@ -327,8 +321,9 @@ footer{
     align-items: center;
 }
 
-.formulaire ul{
-    list-style: none; /* Pour supprimer les points de la liste dans le formulaire */
+.formulaire ul {
+    list-style: none;
+    /* Pour supprimer les points de la liste dans le formulaire */
 }
 
 
@@ -375,5 +370,3 @@ footer{
 @media (max-width: 767.98px) {
     /* ... */
 }
-
-
