@@ -96,7 +96,7 @@ body {
 
     /* margin-top: 33px; */
     width: 250px;
-    height: 207px;
+    height: 208px;
     border-radius: 20px;
     padding: 0px 0px 15px 0px; 
 }
@@ -105,14 +105,14 @@ body {
     width: 250px;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
-    border: 5px white;
+
 }
 
 .hebergements-cards .card-content {
     width: 250px;
     height: 64px;
     padding: 0px 15px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .hebergements-cards .card-title {
