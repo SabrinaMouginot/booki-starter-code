@@ -53,6 +53,23 @@ body {
     color: var(--main-bg-color)
 }
 
+/**************************************************************** Entête *******************************************************************/
+.recherche{
+    display: grid;
+    grid-template-columns: 3% 10% 10%;
+    align-items: start;
+    justify-content: left;
+    /* text-align: center; */
+}
+
+.filtres{
+    display: grid;
+    grid-template-columns: 5% 10% 10% 10% 10%;
+    align-items: start;
+    justify-content: left;
+}
+
+
 /**************************************************** Hebergements And Populaires **********************************************************/
 .hebergements-and-populaires {
     display: flex;
