@@ -59,10 +59,63 @@ a {
     color: var(--main-bg-color)
 }
 
-/**************************************************************** Entête *******************************************************************/
-.entete {
-    margin-bottom: 35px;
+/**************************************************************** Navbar *******************************************************************/
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 79px;
+    z-index: 5;
+    background-color: white;
 }
+
+.navbar img{
+    height: 19px;
+    padding: 30px, 50px, 30px, 50px;
+}
+
+.navbar a{
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 25px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    color: black;
+    /* text-align: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+    /* background-color: #333; */
+}
+
+/* Change the link color to #111 (black) on hover */
+ a:hover {
+    color: blue;
+}
+
+
+/**************************************************************** Entête *******************************************************************/
+.entete{
+    width: 100%;
+    padding: 30px;
+    margin-top: 80px;
+}
+
+/* .entete {
+    margin-bottom: 35px;
+} */
 
 .entete img {
     height: 79px;
