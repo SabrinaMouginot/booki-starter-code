@@ -60,7 +60,7 @@ a {
 }
 
 /**************************************************************** Navbar *******************************************************************/
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -69,12 +69,12 @@ a {
     background-color: white;
 }
 
-.navbar img{
+.navbar img {
     height: 19px;
     padding: 30px, 50px, 30px, 50px;
 }
 
-.navbar a{
+.navbar a {
     float: left;
     margin-top: 30px;
     margin-left: 50px;
@@ -100,14 +100,14 @@ a {
     /* background-color: #333; */
 }
 
-/* Change the link color to #111 (black) on hover */
- a:hover {
+/* Change the link color to blue on hover */
+a:hover {
     color: blue;
 }
 
 
 /**************************************************************** Entête *******************************************************************/
-.entete{
+.entete {
     width: 100%;
     padding: 30px;
     margin-top: 80px;
@@ -143,26 +143,53 @@ a {
 }
 
 .filtres {
-    display: grid;
-    grid-template-columns: 5% 10% 10% 10% 10%;
+    display: flex;
     align-items: start;
     justify-content: left;
-    /* justify-content: space-between; */
-    /* height: 50px;
-    font-size: 17px; */
+    height: 50px;
+    font-size: 17px;
+}
+
+.F{
+
+    width: 7%;
+    align-self: center;
 }
 
 .filtres button {
-    /* height: 50px; */
     border-radius: 25px;
-    /* font-size: 17px; */
+    padding: 4px 19px;
+    margin-left: 2%;
+}
+
+.economique {
+    width: 173px;
+    height: 50px;
+}
+
+.familial {
+    width: 134;
+    height: 50px;
+}
+
+.romantique {
+    width: 170px;
+    height: 50px;
+}
+
+.pepites {
+    width: 167px;
+    height: 50px;
 }
 
 .i {
     width: 100%;
-    height: 24px;
-    padding-top: 35px;
+    padding-top: 30px;
+    margin: 0;
+    size: 16px;
+    line-height: 18px;
 }
+
 
 /**************************************************** Hebergements And Populaires **********************************************************/
 .hebergements-and-populaires {
@@ -183,7 +210,7 @@ a {
     /* padding: 30px; */
 }
 
-.hebergements-title h2{
+.hebergements-title h2 {
     margin: 0;
     font-size: 22px;
 }
@@ -195,7 +222,7 @@ a {
     /* margin-left: 15px; */
 }
 
-.hebergements-cards{
+.hebergements-cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -215,7 +242,7 @@ a {
     flex: 1;
 }
 
-.central{
+.central {
     margin: 0 30px;
 }
 
