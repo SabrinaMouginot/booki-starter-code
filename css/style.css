@@ -166,6 +166,11 @@ a {
     align-items: center;
 }
 
+.filtres h2{
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
 .filtres-container{
     display: flex;
     gap: 10px;
@@ -177,14 +182,14 @@ a {
     border: solid 2px var(--dark-grey);
     background-color: white;
     height: 50px;
-
+    display:flex;
 }
 
 .filtre:hover {
     background-color: var(--filter-bg-color);
 }
 
-.i {
+.info {
     width: 100%;
     padding-top: 30px;
     margin: 0;
@@ -413,8 +418,6 @@ a {
     list-style: none;
     /* Pour supprimer les points de la liste dans le formulaire */
 }
-
-
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
