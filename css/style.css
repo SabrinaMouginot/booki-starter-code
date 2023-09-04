@@ -132,15 +132,39 @@ a:hover {
     border: 1px;
 }
 
+.recherche span {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f2f2f2;
+    padding-top: 15px;
+    padding-left: 18px; 
+}
+
+.recherche i {
+    color: black;
+     height: 18px;
+    width: 28%;
+    display: block;
+    align-items: center;
+    text-align: center;
+
+    /* */
+    margin: auto;
+}
+
 .recherche button {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #0065FC;
     color: #F2F2F2;
-    /* padding: 15px 16px; */
-    /* height: 49px;
-    font-size: 18px; */
+    padding: 15px 16px;
+    height: 49px;
+    font-size: 18px;
 }
+
+
 
 .filtres {
     display: flex;
@@ -150,16 +174,21 @@ a:hover {
     font-size: 17px;
 }
 
-.F{
-
-    width: 7%;
+.F {
+    width: 5%;
     align-self: center;
 }
 
 .filtres button {
     border-radius: 25px;
     padding: 4px 19px;
-    margin-left: 2%;
+    margin-left: 1%;
+    border-color: #D9D9D9;
+
+}
+
+.filtres button:hover {
+    background-color: #DEEBFF;
 }
 
 .economique {
