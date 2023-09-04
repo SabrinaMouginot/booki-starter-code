@@ -139,20 +139,23 @@ a:hover {
     border-bottom-left-radius: 15px;
     background-color: #f2f2f2;
     padding-top: 15px;
-    padding-left: 18px; 
+    padding-left: 18px;
 }
 
 .recherche i {
     color: black;
-     height: 18px;
-    width: 28%;
-    display: block;
-    align-items: center;
-    text-align: center;
-
-    /* */
-    margin: auto;
+    /* height: 18px;
+    width: 28%; */
+    /* display: block; */
+    /* align-items: center;
+    text-align: center; */
+    /* margin: auto; */
 }
+
+/* .recherche textarea{ */
+    /* height: 100px; */
+    /* width: 7%; */
+/* } */
 
 .recherche button {
     border-top-right-radius: 15px;
