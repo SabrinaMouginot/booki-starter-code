@@ -164,6 +164,13 @@ a {
 .filtres {
     display: flex;
     align-items: center;
+
+}
+
+.filtres .fa-xs{
+    margin-right: 10px;
+    font-size: 1.2em;
+    margin: 22px 14px 16px 0px;
 }
 
 .filtres h2{
