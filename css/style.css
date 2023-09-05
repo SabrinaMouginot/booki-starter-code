@@ -109,45 +109,29 @@ a {
     margin-top: 80px;
 }
 
-/* .entete {
-    margin-bottom: 35px;
-} */
-
 .entete img {
     height: 79px;
     padding-bottom: 35px;
 }
 
+        /* --- LA BARRE DE RECHERCHE --- */
+
 .recherche {
     display: flex;
     align-items: center;
-
-}
-
-.recherche span {
-    height: 100%;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background-color: #f2f2f2;
-    padding-top: 15px;
-    padding-left: 18px;
 }
 
 .recherche .fa-xs{
     color: black;
-    /* height: 18px;
-    width: 28%; */
-    /* display: block; */
-    /* align-items: center;
-    text-align: center; */
-    /* margin: auto; */
+    font-size: 1.2em;
+    margin: 25px 20px;
 }
 
-/* .recherche textarea{ */
-    /* height: 100px; */
-    /* width: 7%; */
-/* } */
+.recherche div{
+    border-radius: 15px 0px 0px 15px;
+    border: 1px;
+    background-color: var(--main-bg-color);
+}
 
 .recherche button {
     border-top-right-radius: 15px;
@@ -159,8 +143,7 @@ a {
     font-size: 18px;
 }
 
-
-
+        /* --- LES FILTRES --- */
 .filtres {
     display: flex;
     align-items: center;
@@ -168,9 +151,8 @@ a {
 }
 
 .filtres .fa-xs{
-    margin-right: 10px;
     font-size: 1.2em;
-    margin: 22px 14px 16px 0px;
+    margin: 22px 24px 16px 0px;
 }
 
 .filtres h2{
@@ -195,6 +177,8 @@ a {
 .filtre:hover {
     background-color: var(--filter-bg-color);
 }
+
+        /* --- INFORMATIONS --- */
 
 .info {
     width: 100%;
