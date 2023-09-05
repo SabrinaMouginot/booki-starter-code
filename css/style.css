@@ -7,7 +7,7 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
-    --dark-grey:#D9D9D9;
+    --dark-grey: #D9D9D9;
 }
 
 .fa-solid {
@@ -28,7 +28,7 @@ a {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    margin: auto;
+    margin: 50px 50px 0px 50px;
     box-sizing: border-box;
 }
 
@@ -64,125 +64,132 @@ a {
 .navbar {
     position: fixed;
     top: 0;
-    width: 100%;
+    /* width: 100%; */
     height: 79px;
-    z-index: 5;
+    margin: 50px;
+    z-index: 1;
     background-color: white;
 }
 
 .navbar img {
-    height: 19px;
-    padding: 30px, 50px, 30px, 50px;
+    height: 22px;
+    /* margin: 30px, 50px, 30px, 50px; */
 }
 
-.navbar a {
-    float: left;
-    margin-top: 30px;
-    margin-left: 50px;
+.navbar .nav1 {
     display: block;
+    float: left;
     color: black;
-    /* text-align: center; */
-    padding: 14px 16px;
-    text-decoration: none;
-    /* background-color: #333; */
 }
 
 /* Change the link color to blue on hover */
-.navbar a:hover {
+.navbar .nav1:hover {
     color: blue;
 }
 
-.navbar ul {
+.navbar .nav2 {
     list-style-type: none;
     margin: 0;
-    padding: 0 25px;
     overflow: hidden;
 }
 
-.navbar li {
+.navbar .nav3 {
     float: right;
+    padding: 0 25px;
 }
 
 /**************************************************************** Entête *******************************************************************/
 .entete {
-    padding: 30px;
+    /* padding: 30px; */
     margin-top: 80px;
 }
 
-.entete img {
-    height: 79px;
-    padding-bottom: 35px;
+.entete .titre {
+    line-height: 12px;
 }
 
-        /* --- LA BARRE DE RECHERCHE --- */
+/* --- LA BARRE DE RECHERCHE --- */
 
 .recherche {
     display: flex;
     align-items: center;
+    margin: 30px 0px;
 }
 
-.recherche .fa-xs{
+/* icone */
+.recherche .fa-xs {
     color: black;
     font-size: 1.2em;
-    margin: 25px 20px;
+    margin: 25px 18px 25px 20px;
 }
 
-.recherche div{
+.recherche div {
     border-radius: 15px 0px 0px 15px;
     border: 1px;
     background-color: var(--main-bg-color);
 }
 
+/* zone de texte */
+.recherche .txtarea {
+    /* padding: 13px 28px; */
+    padding: 13px 0px 13px 28px;
+    border: solid 2px var(--main-bg-color);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* bouton de recherche */
 .recherche button {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #0065FC;
-    color: #F2F2F2;
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
     padding: 15px 16px;
-    height: 49px;
     font-size: 18px;
+    border: none;
+    font-weight: bold;
 }
 
-        /* --- LES FILTRES --- */
+/* --- LES FILTRES --- */
 .filtres {
     display: flex;
     align-items: center;
 
 }
 
-.filtres .fa-xs{
+.filtres .fa-xs {
     font-size: 1.2em;
     margin: 22px 24px 16px 0px;
 }
 
-.filtres h2{
-    margin-right: 10px;
+.filtres h2 {
+    margin-right: 20px;
     font-size: 1.2em;
 }
 
-.filtres-container{
+.filtres-container {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .filtre {
+    display: flex;
+    padding: 0px 18px;
     border-radius: 25px;
-    padding: 0px 19px;
     border: solid 2px var(--dark-grey);
     background-color: white;
-    height: 50px;
-    display:flex;
+    /* height: 50px; */
 }
 
 .filtre:hover {
     background-color: var(--filter-bg-color);
 }
 
-        /* --- INFORMATIONS --- */
+/* --- INFORMATIONS --- */
 
 .info {
     width: 100%;
-    padding-top: 30px;
+    padding: 30px 0px;
     margin: 0;
     size: 16px;
     line-height: 18px;
