@@ -454,7 +454,24 @@ a {
     }
 }
 
+/* ********************************************* RESPONSIVE ********************************************* */
+
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media all and (max-width: 768px) {
+    /* ... */
+}
+
+/* Tablettes (between 768px and 1024px) */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    /* ... */
+}
+
+/* Desktops (between 1024px and 1600px) */
+@media all and (min-width: 1025px) and (max-width: 1600px) {
+    /* ... */
+}
+
+/* Large desktops (more than 1600px) */
+@media all and (min-width: 1601px) {
     /* ... */
 }
