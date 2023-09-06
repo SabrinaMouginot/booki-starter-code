@@ -156,7 +156,6 @@ a {
 .filtres {
     display: flex;
     align-items: center;
-
 }
 
 .filtres .fa-xs {
@@ -465,6 +464,22 @@ a {
 @media all and (min-width: 769px) and (max-width: 1024px) {
 
     /* ... */
+    .main-container {
+        margin: 50px 20px 0px 40px;
+    }
+
+    .filtres {
+        display: initial;
+    }
+
+    .filtre {
+        padding: 0px 9px;
+    }
+
+    .filtres-container {
+        gap: 15px;
+    }
+
     .hebergements {
         width: 100%;
     }
