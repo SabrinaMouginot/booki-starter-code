@@ -464,6 +464,10 @@ a {
 @media all and (min-width: 769px) and (max-width: 1024px) {
 
     /* ... */
+    .navbar img {
+        margin: 30px 50px 30px 30px;
+    }
+
     .navbar .nav2 {
         margin: 15px 30px;
     }
@@ -482,6 +486,10 @@ a {
 
     .filtres-container {
         gap: 15px;
+    }
+
+    .filtres .fa-xs {
+        margin: 22px 10px 16px 10px;
     }
 
     .hebergements {
