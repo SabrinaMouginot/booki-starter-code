@@ -463,13 +463,18 @@ a {
 
 /* Tablettes (between 768px and 1024px) */
 @media all and (min-width: 769px) and (max-width: 1024px) {
+
     /* ... */
-    .hebergements{
+    .hebergements {
         width: 100%;
     }
 
-    .populaires{
+    .populaires {
         width: 100%;
+    }
+
+    .populaires-cards .card {
+        width: 91%;
     }
 }
 
