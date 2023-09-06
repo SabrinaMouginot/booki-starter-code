@@ -503,6 +503,28 @@ a {
     .populaires-cards .card {
         width: 91%;
     }
+
+    .activities-cards {
+        gap: 20px;
+    }
+
+    .populaires-cards .card-content {
+        padding-left: 8px;
+    }
+
+    .activities .card {
+        width: 100%;
+    }
+
+    .activities .card h3 {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+
+    .footer-block {
+        flex: auto;
+    }
 }
 
 /* Desktops (between 1024px and 1600px) */
