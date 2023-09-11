@@ -473,11 +473,37 @@ a {
 
     .filtres-container {
         gap: 15px;
-        flex-wrap: wrap; /*retour à la ligne*/
+        flex-wrap: wrap;
+        /*retour à la ligne*/
     }
 
     .filtres .fa-xs {
         margin: 22px 10px 16px 10px;
+    }
+
+    /* activités */
+    .activities {
+        height: 1000px;
+    }
+
+    .activities-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .activities .card img {
+        height: 170px;
+    }
+
+    .activities .card {
+        height: 220px;
+        margin-top: 0px;
+    }
+
+    .activities h2 {
+        margin: 0;
+        padding-bottom: 15px;
     }
 
     /* footer */
