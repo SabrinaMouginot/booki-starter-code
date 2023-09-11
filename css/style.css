@@ -457,7 +457,41 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media all and (max-width: 768px) {
+
     /* ... */
+    /* filtres */
+    .filtres {
+        display: initial;
+    }
+
+    .filtre {
+        padding: 0px 9px;
+        /* justify-content: center; */
+    }
+
+
+
+    .filtres-container {
+        gap: 15px;
+        flex-wrap: wrap; /*retour à la ligne*/
+    }
+
+    .filtres .fa-xs {
+        margin: 22px 10px 16px 10px;
+    }
+
+    /* footer */
+    .foot {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer-block {
+        margin: 25px;
+    }
+
 }
 
 /* Tablettes (between 768px and 1024px) */
