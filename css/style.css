@@ -504,12 +504,12 @@ a {
 
 /* Tablettes (between 768px and 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-    .main-container {
-        gap: 35px;
-        align-self: stretch;
+    /* entete */
+    .entete .titre{
+        margin: 0;
+        padding-bottom: 35px;
     }
 
-    /* entete */
     .filtres {
         display: initial;
     }
@@ -522,10 +522,20 @@ a {
         gap: 15px;
     }
 
-    .filtres .fa-xs {
+    /* .filtres .fa-xs {
         margin: 22px 10px 16px 10px;
+    } */
+
+    .filtres h2 {
+        /* margin: 0px; */
+        padding-top: 35px;
     }
 
+    .filtres-container .filtre{
+        margin-bottom: 35px;
+    }
+
+    /* Hébergements & Populaires */
     .hebergements {
         width: 100%;
     }
@@ -546,6 +556,7 @@ a {
         padding-left: 8px;
     }
 
+    /* Activités */
     .activities {
         height: 400px;
     }
