@@ -364,7 +364,7 @@ a {
     box-sizing: border-box;
 }
 
-.activities .card h3{
+.activities .card h3 {
     margin: 0;
     padding: 20px 19px;
 }
@@ -391,35 +391,6 @@ a {
 .footer-block h2 {
     margin: 0;
     font-size: 18px;
-}
-
-
-/* Pages liées au footer (<a>) */
-.fct {
-    display: flex;
-    justify-content: space-between;
-}
-
-.fct section {
-    background-color: var(--main-bg-color);
-    border-radius: 20px;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.explication {
-    width: 100%;
-}
-
-.explication-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.formulaire ul {
-    list-style: none;
-    /* Pour supprimer les points de la liste dans le formulaire */
 }
 
 
@@ -465,7 +436,6 @@ a {
 /* Small devices (phones, less than 768px) */
 @media all and (max-width: 768px) {
 
-    /* ... */
     /* filtres */
     .filtres {
         display: initial;
@@ -475,8 +445,6 @@ a {
         padding: 0px 9px;
         /* justify-content: center; */
     }
-
-
 
     .filtres-container {
         gap: 15px;
@@ -536,20 +504,12 @@ a {
 
 /* Tablettes (between 768px and 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-
-    /* ... */
-    /* .navbar img {
-        margin: 30px 50px 30px 30px;
-    }
-
-    .navbar .nav2 {
-        margin: 15px 30px;
-    }
-
     .main-container {
-        margin: 50px 30px 0px 30px;
-    } */
+        gap: 35px;
+        align-self: stretch;
+    }
 
+    /* entete */
     .filtres {
         display: initial;
     }
@@ -596,9 +556,9 @@ a {
     }
 
     .activities .card h3 {
-        display: flex;
-        justify-content: center;
-        margin: 10px 0px;
+        width: 100%;
+        margin: 15px 0px;
+        padding: 0;
     }
 
 
