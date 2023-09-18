@@ -513,13 +513,22 @@ a {
         gap: 35px;
     }
 
-    .recherche{
-        padding: 35px 30px;
+    .recherche button {
+        /* background: none; */
+        /* border: none; */
+        /* cursor: pointer; */
+        /* font: none; */
+        content: ('../images/loupe.png');
     }
 
     .info {
         margin: 0 30px;
         padding: 35px 30px 0 30px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        width: 70%;
     }
 
     /* filtres */
@@ -627,7 +636,6 @@ a {
     /* activités */
     .activities {
         height: 100%;
-        /* padding: 30px; */
         justify-content: space-around;
         gap: 30px;
         align-self: stretch;
