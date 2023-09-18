@@ -641,7 +641,7 @@ a {
         justify-content: space-around;
         gap: 30px;
         align-self: stretch;
-        margin: 30px;
+        margin: 0px 30px;
     }
 
     .activities-cards {
