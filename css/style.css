@@ -86,7 +86,7 @@ a {
 
 /**************************************************************** Entête *******************************************************************/
 .entete .titre {
-    line-height: 12px;
+    /* line-height: 12px; */
     margin: 30px 0px;
 }
 
@@ -180,7 +180,7 @@ a {
     width: 100%;
     margin: 0;
     font-size: 16px;
-    line-height: 18px;
+    /* line-height: 18px; */
 }
 
 
@@ -277,7 +277,7 @@ a {
 .hebergements-title .afficher {
     margin: 0;
     font-size: 18px;
-    line-height: 21px;
+    /* line-height: 21px; */
     margin: 30px 0 0 0;
 }
 
@@ -510,11 +510,16 @@ a {
     .main-container {
         margin: 0px;
         padding: 0px;
-        gap: 35px;
-        /* width: 375px;
-        height: 4058px; */
+        /* gap: 35px; */
     }
 
+    .entete {
+        padding: 30px;
+        /* justify-content: space-around; */
+        /* gap: 30px;
+        align-self: stretch; */
+        /* margin-top: 0px; */
+    }
     /* .recherche button { */
         /* background: none; */
         /* border: none; */
@@ -523,30 +528,19 @@ a {
         /* content: ('../images/loupe.png') */
     /* } */
 
-    .info {
-        margin: 0 30px;
-        padding: 35px 30px 0 30px;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        align-self: stretch;
-        width: 70%;
-    }
+
 
     /* filtres */
     .filtres {
         flex-wrap: wrap;
         justify-content: space-between;
-        /* margin: 0 30px;
-        padding: 0px 30px; */
     }
 
     .filtre {
-        padding: 0px 9px;
         height: 50px;
-        align-items: center;
         gap: 5px;
         flex: 1 0 0;
+        justify-content: center;
     }
 
     .filtres-container {
@@ -555,8 +549,18 @@ a {
         /*retour à la ligne*/
     }
 
-    .filtres .fa-xs {
+    /* .filtres .fa-xs {
         margin: 22px 10px 16px 10px;
+    } */
+
+    .info {
+        /* margin: 0 30px; */
+        /* padding: 35px 30px 0 30px; */
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        /* width: 70%; */
     }
 
     /* populaires */
@@ -564,7 +568,7 @@ a {
         justify-content: space-around;
         gap: 30px;
         align-self: stretch;
-        margin-top: 0px;
+        /* margin-top: 0px; */
     }
 
     .populaires-cards .card {
@@ -587,6 +591,10 @@ a {
 
 
     /* hébergements */
+    .hebergements-and-populaires {
+        padding: 0px;
+    }
+
     .hebergements-and-populaires .hebergements {
         background-color: var(--white);
     }
@@ -661,6 +669,10 @@ a {
 
     .activities h3 {
         margin: 0;
+    }
+
+    .activities .card h3 {
+        padding: 10px;
     }
 
     /* footer */
