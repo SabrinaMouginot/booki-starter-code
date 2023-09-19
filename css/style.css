@@ -515,13 +515,13 @@ a {
         height: 4058px; */
     }
 
-    .recherche button {
+    /* .recherche button { */
         /* background: none; */
         /* border: none; */
         /* cursor: pointer; */
         /* font: none; */
-        content: ('../images/loupe.png');
-    }
+        /* content: ('../images/loupe.png') */
+    /* } */
 
     .info {
         margin: 0 30px;
@@ -537,8 +537,8 @@ a {
     .filtres {
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0 30px;
-        padding: 0px 30px;
+        /* margin: 0 30px;
+        padding: 0px 30px; */
     }
 
     .filtre {
@@ -561,7 +561,6 @@ a {
 
     /* populaires */
     .populaires {
-        padding: 30px;
         justify-content: space-around;
         gap: 30px;
         align-self: stretch;
@@ -588,9 +587,6 @@ a {
 
 
     /* hébergements */
-    .hebergements-and-populaires {
-        padding: 30px;
-    }
 
     .hebergements-and-populaires .hebergements {
         background-color: var(--white);
@@ -598,7 +594,6 @@ a {
 
     .hebergements {
         order: +1;
-        padding: 30px;
         justify-content: space-around;
         align-self: stretch;
     }
@@ -641,7 +636,6 @@ a {
         justify-content: space-around;
         gap: 30px;
         align-self: stretch;
-        margin: 0px 30px;
     }
 
     .activities-cards {
@@ -673,9 +667,7 @@ a {
     /* footer */
     .foot {
         flex-direction: column;
-        padding: 30px;
         gap: 50px;
-        margin: 30px 30px 0px 30px;
     }
 
     .footer-block {
