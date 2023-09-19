@@ -587,7 +587,6 @@ a {
 
 
     /* hébergements */
-
     .hebergements-and-populaires .hebergements {
         background-color: var(--white);
     }
@@ -668,6 +667,7 @@ a {
     .foot {
         flex-direction: column;
         gap: 50px;
+        padding: 30px;
     }
 
     .footer-block {
