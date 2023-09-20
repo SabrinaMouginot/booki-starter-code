@@ -531,10 +531,10 @@ a {
 
 
     /* filtres */
-    .filtres {
+    /* .filtres {
         flex-wrap: wrap;
         justify-content: space-between;
-    }
+    } */
 
     .filtre {
         height: 50px;
@@ -544,14 +544,15 @@ a {
     }
 
     .filtres-container {
-        gap: 15px;
+        /* gap: 15px; */
+        display: wrap;
         flex-wrap: wrap;
         /*retour à la ligne*/
     }
 
-    /* .filtres .fa-xs {
+    .filtres .fa-xs {
         margin: 22px 10px 16px 10px;
-    } */
+    }
 
     .info {
         /* margin: 0 30px; */
