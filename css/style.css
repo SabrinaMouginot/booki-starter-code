@@ -77,7 +77,6 @@ a {
     display: flex;
     padding: 0 25px 74px 25px;
     gap: 68px;
-    /* padding: 0 25px; */
 }
 
 .navbar li:hover {
@@ -180,7 +179,6 @@ a {
     width: 100%;
     margin: 0;
     font-size: 16px;
-    /* line-height: 18px; */
 }
 
 
@@ -210,7 +208,6 @@ a {
 .hebergements-title .afficher {
     font-size: 22px;
     display: block;
-    /* font-size: 1.17em; */
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -358,7 +355,6 @@ a {
 }
 
 .activities-cards {
-    /* width: 100%; */
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -433,11 +429,22 @@ a {
 }
 
 /* ********************************************* RESPONSIVE ********************************************* */
+/*Desktop (more than 1024px)*/
+@media (min-width: 1025px) {
+    .mobile {
+        display: none;
+    }
+}
+
 /* Tablettes (between 768px and 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
     .entete .titre {
         margin: 0;
         padding-bottom: 35px;
+    }
+
+    .mobile {
+        display: none;
     }
 
     .filtres {
@@ -510,31 +517,20 @@ a {
     .main-container {
         margin: 0px;
         padding: 0px;
-        /* gap: 35px; */
     }
 
     .entete {
         padding: 30px;
-        /* justify-content: space-around; */
-        /* gap: 30px;
-        align-self: stretch; */
-        /* margin-top: 0px; */
     }
-    /* .recherche button { */
-        /* background: none; */
-        /* border: none; */
-        /* cursor: pointer; */
-        /* font: none; */
-        /* content: ('../images/loupe.png') */
-    /* } */
 
+    .btn{
+        display: none;
+    }
 
-
-    /* filtres */
-    /* .filtres {
-        flex-wrap: wrap;
-        justify-content: space-between;
-    } */
+    .mobile img {
+        width: 16px;
+        height: 16px;
+    }
 
     .filtre {
         height: 50px;
@@ -544,7 +540,6 @@ a {
     }
 
     .filtres-container {
-        /* gap: 15px; */
         display: wrap;
         flex-wrap: wrap;
         /*retour à la ligne*/
@@ -555,13 +550,10 @@ a {
     }
 
     .info {
-        /* margin: 0 30px; */
-        /* padding: 35px 30px 0 30px; */
         display: flex;
         align-items: center;
         gap: 10px;
         align-self: stretch;
-        /* width: 70%; */
     }
 
     /* populaires */
@@ -569,7 +561,6 @@ a {
         justify-content: space-around;
         gap: 30px;
         align-self: stretch;
-        /* margin-top: 0px; */
     }
 
     .populaires-cards .card {
