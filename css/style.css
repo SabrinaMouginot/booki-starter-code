@@ -549,6 +549,12 @@ a {
         margin: 22px 10px 16px 10px;
     }
 
+    .filtres{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+
     .info {
         display: flex;
         align-items: center;
