@@ -519,6 +519,28 @@ a {
         padding: 0px;
     }
 
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navbar img{
+        padding: 30px;
+    }
+
+    .navbar ul{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .entete .titre h2{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .entete .titre{
+        margin: 0px;
+    }
+
     .entete {
         padding: 30px;
     }
@@ -544,15 +566,20 @@ a {
         flex-wrap: wrap;
         /*retour à la ligne*/
     }
-
+/* 
     .filtres .fa-xs {
         margin: 22px 10px 16px 10px;
-    }
+    } */
 
     .filtres{
+        padding: 0;
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 50% 50%;
+    }
+
+    .filtre span{
+        font-size: 1.1em;
     }
 
     .info {
@@ -560,6 +587,7 @@ a {
         align-items: center;
         gap: 10px;
         align-self: stretch;
+        padding-top: 30px;
     }
 
     /* populaires */
@@ -567,6 +595,7 @@ a {
         justify-content: space-around;
         gap: 30px;
         align-self: stretch;
+        margin-top: 0;
     }
 
     .populaires-cards .card {
