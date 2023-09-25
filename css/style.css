@@ -532,6 +532,7 @@ a {
         margin: 0px;
         justify-content: space-around;
         align-self: stretch;
+        border-bottom: solid 2px var(--main-bg-color);
     }
 
     .entete .titre h2 {
