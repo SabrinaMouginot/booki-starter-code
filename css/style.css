@@ -517,9 +517,6 @@ a {
     .main-container {
         margin: 0px;
         padding: 0px;
-        /* flex-direction: column;
-        align-items: flex-start;
-        gap: 30px; */
     }
 
     .navbar {
@@ -547,16 +544,8 @@ a {
     }
 
     .entete {
-        /* padding: 30px; */
-        /* display: flex; */
-        /* width: 375px; */
-        /* flex-direction: column;
-        align-items: flex-start;
-        gap: 30px; */
-
-
         display: flex;
-        padding: 0px 20px;
+        padding: 30px 20px 35px 20px;
         flex-direction: column;
         align-items: flex-start;
         gap: 35px;
@@ -589,11 +578,6 @@ a {
         flex-wrap: wrap;
         /*retour à la ligne*/
     }
-
-    /* 
-    .filtres .fa-xs {
-        margin: 22px 10px 16px 10px;
-    } */
 
     .filtres {
         padding: 0;
@@ -645,6 +629,7 @@ a {
     /* hébergements */
     .hebergements-and-populaires {
         padding: 0px;
+        gap: 15px;
     }
 
     .hebergements-and-populaires .hebergements {
@@ -695,6 +680,7 @@ a {
         justify-content: space-around;
         gap: 30px;
         align-self: stretch;
+        padding: 65px 30px;
     }
 
     .activities-cards {
