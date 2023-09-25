@@ -536,6 +536,12 @@ a {
         border-bottom: solid 2px var(--main-bg-color);
     }
 
+    .navbar li:hover {
+        border-top: none;
+        border-bottom: solid 2px var(--main-color);
+        /* padding-block-end: 15px;  */
+    }
+
     .entete .titre h2 {
         padding: 0px;
         margin: 0px;
