@@ -534,6 +534,7 @@ a {
         align-self: stretch;
         /* border-bottom: solid 2px var(--main-bg-color); */
         padding: 0;
+        gap: 0;
     }
 
     .navbar li {
