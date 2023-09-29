@@ -93,7 +93,6 @@ a {
 
 /**************************************************************** Entête *******************************************************************/
 .entete .titre {
-    /* line-height: 12px; */
     margin: 30px 0px;
 }
 
@@ -278,7 +277,6 @@ a {
 .hebergements-title .afficher {
     margin: 0;
     font-size: 18px;
-    /* line-height: 21px; */
     margin: 30px 0 0 0;
 }
 
@@ -532,7 +530,6 @@ a {
         margin: 0px;
         justify-content: space-around;
         align-self: stretch;
-        /* border-bottom: solid 2px var(--main-bg-color); */
         padding: 0;
         gap: 0;
     }
@@ -547,7 +544,6 @@ a {
         border-top: none;
         border-bottom: solid 2px var(--main-color);
         flex: 1 0 0;
-        /* padding-block-end: 15px;  */
     }
 
     .entete .titre h2 {
